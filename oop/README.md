@@ -2,7 +2,7 @@
 
 ## سوال اول
 
-خروجی کد زیر چیسن؟
+خروجی کد زیر چیست؟
 
 <div dir="ltr">
 
@@ -86,7 +86,7 @@ print(D.mro())
 ```
 
 
->>1. `[<class '__main__.D'>, <class '__main__.B'>, <class '__main__.C'>, <class '__main__.A'>, <class 'object'>]`
+1. `[<class '__main__.D'>, <class '__main__.B'>, <class '__main__.C'>, <class '__main__.A'>, <class 'object'>]`
 2. `[<class 'object'>, <class '__main__.A'>, <class '__main__.C'>, <class '__main__.B'>, <class '__main__.D'>]`
 3. `[<class '__main__.D'>, <class '__main__.A'>, <class '__main__.B'>, <class '__main__.C'>, <class 'object'>]`
 4. `[<class 'object'>, <class '__main__.A'>, <class '__main__.B'>, <class '__main__.C'>, <class '__main__.D'>]`
@@ -98,10 +98,10 @@ print(D.mro())
 
 کدام گزینه درست نیست؟
 
-1. متد __init__ نباید خروجی داشته باشد.
-2. متد __new__ فقط در پایتون ۳ وجود دارد.
-3. __slot__ ها در ارث بری به ارث برده نمی‌شوند.
->>4. متد __del__ وظیفه اش صدا کردن Garbage Collector است.
+1. متد `__init__` نباید خروجی داشته باشد.
+2. متد `__new__` فقط در پایتون ۳ وجود دارد.
+3. `__slot__` ها در ارث بری به ارث برده نمی‌شوند.
+4. متد `__del__` وظیفه اش صدا کردن Garbage Collector است.
 
 
 ## سوال ششم
@@ -123,4 +123,18 @@ print(D.mro())
 2. فقط در new style inheritance وجود دارد
 3. امکان فراخوانی یک متد را به صورت داینامیک از والدین فراهم می‌کند.
 4. یکی از کاربرد های اصلی آن در override کردن یک متد از یک کلاس است.
+
+
+
+## پاسخنامه
+
+سوال     | پایخ
+-------- | ---
+اول | 5
+دوم    | 2
+سوم     | 2
+چهارم     | 1
+پنجم     | 4
+ششم     | 1
+هفتم     | 1
 </div>
